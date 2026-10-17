@@ -1,0 +1,126 @@
+Casos reales y frecuentes de atención a clientes: internet, Windows, correo
+electrónico, aplicaciones y dispositivos.
+Objetivo: practicar cómo diagnosticar problemas comunes, explicar pasos claros y saber cuándo
+escalar un caso.
+Buenas prácticas para el técnico
+• Escuchar al cliente y preguntar qué cambió antes de que apareciera el problema.
+• Resolver primero las causas simples y comprobar el resultado después de cada paso.
+• Proteger datos, contraseñas y códigos de verificación; pedir permiso antes de hacer cambios.
+• Registrar el error exacto, los pasos realizados y el resultado para facilitar el seguimiento.
+Preguntas frecuentes y respuestas modelo
+1. El cliente tiene Wi‑Fi, pero no puede navegar por internet.
+Respuesta sugerida: Primero compruebo si el problema afecta a un solo dispositivo o a todos. En
+el equipo afectado, verifico que el Wi‑Fi esté conectado y pruebo abrir más de un sitio. Después
+reinicio el navegador y, si sigue igual, desconecto el router de la corriente durante unos 30
+segundos y lo vuelvo a conectar. Si todos los dispositivos siguen sin internet, reviso las luces del
+módem/router y consulto si hay una incidencia del proveedor. No restablezco el router a valores
+de fábrica sin autorización.
+2. La conexión a internet es muy lenta.
+Respuesta sugerida: Hago una prueba de velocidad y comparo el resultado con el plan
+contratado, teniendo en cuenta la distancia al router y cuántos dispositivos usan la red. Pruebo
+cerca del router y, si es posible, por cable Ethernet. Pauso descargas y aplicaciones que
+consuman ancho de banda. Si la lentitud continúa en varios dispositivos, documento horarios y
+resultados para escalarlo al proveedor.
+3. Windows indica “Conectado, sin internet”.
+Respuesta sugerida: Confirmo si otros dispositivos navegan. En Windows, reviso Configuración >
+Red e Internet y ejecuto el solucionador de problemas. Luego desactivo y activo el adaptador de
+red, y reinicio el equipo. Si persiste, puedo renovar la configuración IP o revisar DNS desde la
+consola, con comandos adecuados y explicando el cambio al cliente. Si el problema es general,
+reviso router y proveedor.
+Guía práctica de soporte técnico Página 2
+4. La computadora no se conecta a una red Wi‑Fi.
+Respuesta sugerida: Verifico que el Wi‑Fi esté encendido, que el modo avión esté desactivado y
+que la contraseña sea correcta. Compruebo si otros dispositivos ven la red. Si solo falla esa
+computadora, olvido la red y vuelvo a conectarme; después reviso el adaptador y su controlador.
+Evito modificar configuraciones avanzadas sin registrar primero los valores originales.
+5. El cliente olvidó la contraseña de su correo.
+Respuesta sugerida: Le indico que use la opción oficial “¿Olvidaste tu contraseña?” del proveedor
+o el portal corporativo. Verifico que esté en el sitio legítimo y que tenga acceso al método de
+recuperación registrado. Nunca le pido que me comparta su contraseña ni códigos de verificación.
+Si es una cuenta laboral, sigo el procedimiento de identidad y recuperación de la empresa.
+6. Los correos no llegan a la bandeja de entrada.
+Respuesta sugerida: Compruebo la conexión, busco el mensaje en Spam/Correo no deseado,
+Archivo y Papelera, y reviso filtros, reglas y remitentes bloqueados. Verifico si el buzón está lleno
+y pido al remitente confirmar la dirección y si recibió un aviso de entrega fallida. En cuentas
+empresariales, reviso el estado del servicio o escalo al administrador de correo.
+7. El cliente puede recibir correos, pero no enviarlos.
+Respuesta sugerida: Reviso si aparece un mensaje de error, si hay conexión y si el buzón tiene
+espacio. Compruebo la dirección del destinatario y pruebo enviar un mensaje breve a una cuenta
+conocida. Si usa un programa como Outlook, reviso la configuración de la cuenta y del servidor
+saliente según los datos oficiales del proveedor. No cambio puertos ni seguridad al azar.
+8. Outlook no abre o se queda cargando.
+Respuesta sugerida: Cierro Outlook y verifico en el Administrador de tareas que no siga
+ejecutándose. Pruebo abrirlo en modo seguro con `outlook.exe /safe`. Si funciona, desactivo
+complementos uno por uno. También reviso actualizaciones de Office y el estado del perfil. Antes
+de reparar o recrear el perfil, confirmo que los datos estén sincronizados o respaldados.
+9. Una aplicación no se abre.
+Respuesta sugerida: Anoto el nombre de la aplicación, el mensaje de error y desde cuándo ocurre.
+Reinicio el equipo, compruebo actualizaciones y verifico si la aplicación funciona para otro usuario
+o en otro equipo. Si corresponde, uso Configuración > Aplicaciones para reparar la aplicación.
+Reinstalo solo después de comprobar que los datos del usuario estén guardados.
+10. Una página web queda en blanco o no termina de cargar.
+Respuesta sugerida: Pruebo otra página para saber si el problema es general. Actualizo la página,
+abro una ventana privada y pruebo otro navegador. Si en modo privado funciona, reviso
+extensiones y caché. También verifico fecha y hora del sistema y si la página está caída. No
+desactivo permanentemente el antivirus ni las protecciones del navegador.
+11. Windows está muy lento.
+Respuesta sugerida: Reviso el uso de CPU, memoria y disco en el Administrador de tareas.
+Compruebo el espacio libre, las aplicaciones de inicio y si hay actualizaciones en curso. Cierro
+programas innecesarios y reinicio el equipo. Si sospecho malware, ejecuto un análisis con una
+herramienta de seguridad confiable. Antes de borrar archivos o cambiar componentes, consulto al
+usuario y protejo sus datos.
+Guía práctica de soporte técnico Página 3
+12. La impresora aparece como desconectada.
+Respuesta sugerida: Compruebo que esté encendida, conectada a la red o al cable correcto y que
+tenga papel y tinta/tóner. Verifico que computadora e impresora estén en la misma red si es Wi‑Fi.
+En Windows, reviso la cola de impresión, cancelo trabajos bloqueados y confirmo que no esté
+activado “Usar impresora sin conexión”. Si hace falta, reinicio el servicio de cola de impresión o
+reinstalo el controlador oficial.
+13. No hay sonido en la computadora.
+Respuesta sugerida: Verifico el volumen, que no esté silenciado y que la salida seleccionada sea
+la correcta (parlantes, auriculares o monitor). Pruebo otra aplicación y reviso el mezclador de
+volumen. Después ejecuto el solucionador de problemas de audio y reviso el controlador desde el
+Administrador de dispositivos. Si usa auriculares Bluetooth, compruebo que estén conectados
+como dispositivo de salida.
+14. La cámara o el micrófono no funcionan en una videollamada.
+Respuesta sugerida: Compruebo que el dispositivo correcto esté seleccionado dentro de la
+aplicación y que no esté siendo usado por otro programa. En Windows, reviso Configuración >
+Privacidad y seguridad > Cámara/Micrófono y permito el acceso necesario. Hago una prueba
+desde la configuración de la aplicación y verifico conexiones o permisos del navegador.
+15. Windows no reconoce un pendrive o disco externo.
+Respuesta sugerida: Pruebo otro puerto USB y, si es posible, otro equipo. Compruebo si aparece
+en Administración de discos, pero no lo formateo ni inicializo si contiene información importante.
+Si el disco hace ruidos extraños o los archivos son irremplazables, dejo de usarlo y recomiendo
+recuperación especializada para evitar más daños.
+16. Aparece un mensaje de poco espacio en disco.
+Respuesta sugerida: Reviso Configuración > Sistema > Almacenamiento para identificar qué
+ocupa espacio. Uso las herramientas de limpieza de Windows y elimino solo archivos temporales o
+elementos que el usuario confirme que no necesita. Reviso la Papelera y las descargas con
+autorización. No borro carpetas del sistema ni archivos personales sin permiso.
+17. El cliente ve ventanas emergentes o sospecha que tiene un virus.
+Respuesta sugerida: Le pido que no haga clic en ventanas sospechosas ni llame a números que
+aparecen en ellas. Cierro la pestaña o el navegador de forma segura y ejecuto un análisis
+completo con Microsoft Defender u otra solución aprobada. Reviso extensiones del navegador y
+aplicaciones recientes. Si ingresó contraseñas o datos bancarios, recomiendo cambiarlos desde un
+dispositivo confiable y avisar a la entidad correspondiente.
+18. Una actualización de Windows falla.
+Respuesta sugerida: Anoto el código de error, reinicio el equipo y compruebo conexión, fecha/hora
+y espacio disponible. Ejecuto el solucionador de problemas de Windows Update y vuelvo a
+intentar. Si persiste, consulto el código exacto y el historial de actualizaciones antes de aplicar
+una solución específica. No interrumpo una actualización que todavía está trabajando.
+Guía práctica de soporte técnico Página 4
+19. El cliente no puede iniciar sesión en Windows.
+Respuesta sugerida: Compruebo que el usuario esté usando la cuenta correcta y que el teclado
+esté en el idioma esperado, incluyendo Bloq Mayús y Bloq Num. Si es una cuenta Microsoft,
+verifico la conectividad y uso el procedimiento oficial de recuperación. En equipos corporativos,
+confirmo el estado de la cuenta con el administrador. No intento evadir contraseñas ni políticas de
+seguridad.
+20. Una aplicación se congela y muestra “No responde”.
+Respuesta sugerida: Espero unos momentos para comprobar si está procesando una tarea. Si
+sigue congelada, intento cerrar solo esa aplicación desde el Administrador de tareas y vuelvo a
+abrirla. Compruebo si hay actualizaciones y si el equipo tiene recursos suficientes. Antes de forzar
+el cierre, considero si hay trabajo sin guardar y, si el problema se repite, registro los pasos para
+reproducirlo.
+Nota: Los pasos pueden variar según la versión de Windows, el proveedor de correo y las políticas de la
+empresa. En equipos corporativos, seguí siempre los procedimientos internos y escalá los casos que
+requieran permisos de administrad
